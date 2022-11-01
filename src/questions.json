@@ -1,0 +1,34 @@
+[
+  {
+    "soal": "Siapa Presiden Pertama Indonesia?",
+    "jawab": [
+        { "jawaban": "Soekarno", "isCorrect": true },
+        { "jawaban": "Soeharto", "isCorrect": false },
+        { "jawaban": "Jokowi", "isCorrect": false }
+    ]
+  },
+  {
+    "soal": "Apa Kepanjangan WWW?",
+    "jawab": [
+        { "jawaban": "World War Web", "isCorrect": false },
+        { "jawaban": "World War Warning", "isCorrect": false },
+        { "jawaban": "World Wide Web", "isCorrect": true }
+    ]
+  },
+  {
+    "soal": "Siapa Pendiri Tesla?",
+    "jawab": [
+        { "jawaban": "Elon Musk", "isCorrect": true },
+        { "jawaban": "Yi lon Ma", "isCorrect": false },
+        { "jawaban": "Ujang", "isCorrect": false }
+    ]
+  },
+  {
+    "soal": "Siapa Pendiri Facebook",
+    "jawab": [
+        { "jawaban": "Alien In Disguise", "isCorrect": false },
+        { "jawaban": "Mark Zuckerberg", "isCorrect": true },
+        { "jawaban": "Yang Pastinya Bukan Saya", "isCorrect": false }
+    ]
+  }
+]
