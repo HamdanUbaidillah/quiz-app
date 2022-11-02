@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <main className="h-screen flex justify-center items-center bg-blue-300">
-      <section className="bg-slate-800 rounded-md lg:w-1/3 max-md:max-w-sm max-sm:w-11/12 text-white w-96 px-7 py-4">
+      <section className="shadow-lg bg-slate-800 rounded-md lg:w-1/3 max-md:max-w-sm max-sm:w-11/12 text-white w-96 px-7 py-4">
         {showScore ? (
           <section className="flex flex-col items-center">
             <h1 className="text-center font-bold text-xl">
