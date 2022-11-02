@@ -35,7 +35,7 @@ const App = () => {
         ) : (
           <section>
             <div>
-              <h1 className="font-bold text-center text-3xl">React App Quiz</h1>
+              <h1 className="font-bold text-center text-2xl">Kuis Pengetahuan Umum</h1>
             </div>
             <div>
               <p className="text-center mt-1 text-base">
@@ -56,6 +56,12 @@ const App = () => {
             </section>
           </section>
         )}
+        <h1 className="text-center mt-2">
+          Made by {""}
+          <a className="font-bold" href="https://www.instagram.com/hmdnubaidillah" target="_blank" rel="noopener noreferrer">
+            hmdnubaidillah
+          </a>
+        </h1>
       </section>
     </main>
   );
