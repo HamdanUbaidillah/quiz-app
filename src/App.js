@@ -41,7 +41,7 @@ const App = () => {
             </div>
             <div>
               <p className="text-center mt-1 text-base">
-                Kamu menjawab {countSoal + 1} Dari {question.length} Pertanyaan
+                Soal Nomer {countSoal + 1} Dari {question.length} Pertanyaan
               </p>
             </div>
             <section>
