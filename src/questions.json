@@ -85,7 +85,7 @@
     "soal": "Sebutan negara yang sebagian besar penduduknya bekerja di sektor pertanian",
     "jawab": [
       { "jawaban": "Maritim", "isCorrect": false },
-      { "jawaban": "Katulistiwa", "isCorrect": true },
+      { "jawaban": "Katulistiwa", "isCorrect": false },
       { "jawaban": "Agraris", "isCorrect": true }
     ]
   }

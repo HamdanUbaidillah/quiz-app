@@ -17,7 +17,9 @@ const App = () => {
     }
   };
   const handleReload = () => {
-    window.location.reload();
+    setCountSoal(0);
+    setScore(0);
+    setShowScore(false);
   };
 
   return (
