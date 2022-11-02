@@ -16,15 +16,21 @@ const App = () => {
       setShowScore(true);
     }
   };
+  const handleReload = () => {
+    window.location.reload();
+  };
 
   return (
     <main className="h-screen flex justify-center items-center bg-blue-300">
-      <section className="bg-slate-800 rounded-md text-white w-96 px-7 py-4">
+      <section className="bg-slate-800 rounded-md lg:w-1/3 max-md:max-w-sm max-sm:w-11/12 text-white w-96 px-7 py-4">
         {showScore ? (
-          <section>
-            <h1 className="text-center font-bold text-lg">
-              You Scored {score} out of {question.length} questions
+          <section className="flex flex-col items-center">
+            <h1 className="text-center font-bold text-xl">
+              Skormu {score} Dari {question.length} Pertanyaan
             </h1>
+            <button className="bg-blue-600 px-3 hover:bg-blue-700 transition-all py-1 font-semibold rounded-md mt-5 text-xl " onClick={handleReload}>
+              Coba lagi
+            </button>
           </section>
         ) : (
           <section>
@@ -33,15 +39,15 @@ const App = () => {
             </div>
             <div>
               <p className="text-center mt-1 text-base">
-                You Answered {countSoal + 1}/{question.length} Questions
+                Kamu menjawab {countSoal + 1} Dari {question.length} Pertanyaan
               </p>
             </div>
             <section>
               <div className="font-semibold text-lg mt-3">{question[countSoal].soal}</div>
               <div className="flex flex-col gap-2 mt-2">
-                {question[countSoal].jawab.map((jawaban) => {
+                {question[countSoal].jawab.map((jawaban, i) => {
                   return (
-                    <button className="flex text-base font-semibold rounded-md border border-orange-500 hover:bg-orange-500 transition-all px-3 py-1" onClick={() => handleAnswer(jawaban.isCorrect)}>
+                    <button key={i} className="flex text-base font-semibold rounded-md border border-orange-500 hover:bg-orange-500 transition-all px-3 py-1" onClick={() => handleAnswer(jawaban.isCorrect)}>
                       {jawaban.jawaban}
                     </button>
                   );

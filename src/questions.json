@@ -1,34 +1,92 @@
 [
   {
-    "soal": "Siapa Presiden Pertama Indonesia?",
+    "id": 1,
+    "soal": "Belajar suatu ilmu atau pengetahuan secara pribadi atau sendiri disebut?",
     "jawab": [
-        { "jawaban": "Soekarno", "isCorrect": true },
-        { "jawaban": "Soeharto", "isCorrect": false },
-        { "jawaban": "Jokowi", "isCorrect": false }
+      { "jawaban": "Otodidak", "isCorrect": true },
+      { "jawaban": "Mandiri", "isCorrect": false },
+      { "jawaban": "Belajar Sendiri", "isCorrect": false }
     ]
   },
   {
-    "soal": "Apa Kepanjangan WWW?",
+    "id": 2,
+    "soal": "Ada berapa negara yang tergabung dalam ASEAN?",
     "jawab": [
-        { "jawaban": "World War Web", "isCorrect": false },
-        { "jawaban": "World War Warning", "isCorrect": false },
-        { "jawaban": "World Wide Web", "isCorrect": true }
+      { "jawaban": "12", "isCorrect": false },
+      { "jawaban": "11", "isCorrect": false },
+      { "jawaban": "10", "isCorrect": true }
     ]
   },
   {
-    "soal": "Siapa Pendiri Tesla?",
+    "id": 3,
+    "soal": "Benda langit terbuat dari berbagai atom besar debu dan gas beku, mempunyai orbit eksentris dan mengelilingi matahari yaitu?",
     "jawab": [
-        { "jawaban": "Elon Musk", "isCorrect": true },
-        { "jawaban": "Yi lon Ma", "isCorrect": false },
-        { "jawaban": "Ujang", "isCorrect": false }
+      { "jawaban": "Komet", "isCorrect": true },
+      { "jawaban": "Asteroid", "isCorrect": false },
+      { "jawaban": "Bintang", "isCorrect": false }
     ]
   },
   {
-    "soal": "Siapa Pendiri Facebook",
+    "id": 4,
+    "soal": " Samudera Pasai adalah kerajaan Islam pertama, dimana lokasinya?",
     "jawab": [
-        { "jawaban": "Alien In Disguise", "isCorrect": false },
-        { "jawaban": "Mark Zuckerberg", "isCorrect": true },
-        { "jawaban": "Yang Pastinya Bukan Saya", "isCorrect": false }
+      { "jawaban": "Pandaan", "isCorrect": false },
+      { "jawaban": "Aceh", "isCorrect": true },
+      { "jawaban": "Manado", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "soal": "Sumber dari segala hukum di indonesia adalah?",
+    "jawab": [
+      { "jawaban": "Al-quran", "isCorrect": false },
+      { "jawaban": "UUD", "isCorrect": false },
+      { "jawaban": "Pancasila", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 6,
+    "soal": "Nama presiden indonesia yang menjabat selama 31 tahun?",
+    "jawab": [
+      { "jawaban": "Soeakarno", "isCorrect": false },
+      { "jawaban": "Soeharto", "isCorrect": true },
+      { "jawaban": "Susilo Bambang Yudhoyono", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "soal": "Nama ibukota sebelum Jakarta?",
+    "jawab": [
+      { "jawaban": "Yogyakarta", "isCorrect": false },
+      { "jawaban": "Batavia", "isCorrect": true },
+      { "jawaban": "Jayakarta", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 8,
+    "soal": "Pulau terbesar di Indonesia",
+    "jawab": [
+      { "jawaban": "Papua", "isCorrect": true },
+      { "jawaban": "Jawa", "isCorrect": false },
+      { "jawaban": "Sumatra", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 9,
+    "soal": "Nama ibukota baru indonesia?",
+    "jawab": [
+      { "jawaban": "Nusantara", "isCorrect": true },
+      { "jawaban": "Pandaan", "isCorrect": false },
+      { "jawaban": "Jayakarta", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 10,
+    "soal": "Sebutan negara yang sebagian besar penduduknya bekerja di sektor pertanian",
+    "jawab": [
+      { "jawaban": "Maritim", "isCorrect": false },
+      { "jawaban": "Katulistiwa", "isCorrect": true },
+      { "jawaban": "Agraris", "isCorrect": true }
     ]
   }
 ]
